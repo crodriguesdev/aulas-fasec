@@ -1,0 +1,12 @@
+.md h1 {
+    font-size: 2.986rem;
+    color: var(--main-primary);
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+.md h2 {
+    font-size: 2.074rem;
+    margin: 0.8em 0 0.4em 0;
+    border-bottom: 2px solid var(--main-primary-20);
+}

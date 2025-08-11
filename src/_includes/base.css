@@ -2,7 +2,7 @@
     --main-bg: #282828;
     --main-fg: #ebdbb2;
     --main-primary: #fe8019;
-    --main-secondary: #fabd2f;
+    --main-primary-20: #fe801966;
 }
 
 body {
@@ -22,19 +22,19 @@ body {
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 2.986rem;
     color: var(--main-primary);
     font-weight: bold;
 }
 
 .subtitle {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     margin-bottom: .5rem;
     opacity: .5;
 }
 
 .subtitle-2 {
-    font-size: 1.5rem;
+    font-size: 1.44rem;
     margin-top: 2rem;
     margin-bottom: .5rem;
     font-weight: bold;
@@ -53,6 +53,14 @@ a:hover {
     text-decoration: underline;
 }
 
+ul {
+    margin-left: 1rem;
+}
+
 li {
     margin-bottom: .5rem;
+}
+
+li::marker {
+    opacity: 0.6;
 }
