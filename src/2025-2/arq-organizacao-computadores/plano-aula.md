@@ -51,7 +51,7 @@ substituirá a nota final do aluno, mantendo a nota necessária para aprovação
 * Aula 8 (06/10/2025) - Conjuntos de instruções, aula 1
 * Aula 9 (20/10/2025) - Conjuntos de instruções, aula 2
 * Aula 10 (27/10/2025) - Pipeline de instruções
-* Aula 11 (03/10/2025) - Estrutura e função do processador
+* Aula 11 (03/11/2025) - Estrutura e função do processador
 * Aula 12 (10/11/2025) - Arquiteturas RISC, CISC e EPIC
 * Aula 13 (17/11/2025) - Arquiteturas superescalares
 * Aula 14 (24/11/2025) - Multiprocessamento; revisão para a prova 2 (P2).
