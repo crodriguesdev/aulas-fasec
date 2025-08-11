@@ -1,4 +1,4 @@
 {
-  "layout": "base.njk",
+  "layout": "markdown.njk",
   "tags": "arq-organizacao-computadores"
 }
