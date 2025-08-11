@@ -1,0 +1,18 @@
+---
+layout: base.njk
+---
+
+<h1 class="title">{{ name }}</h1>
+<h2 class="subtitle">{{ semestre }} &nbsp;&ndash;&nbsp; {{ periodo }}&ordm; período </h2>
+
+<h3 class="subtitle-2">Aulas</h3>
+<ul>
+    {%- for aula in collections[collection] -%}
+        <li>
+            <a href="{{ aula.url }}">{{ aula.data.name }}</a>
+            {% if aula.data.date %}
+                <span class="class-date">({{ aula.data.date.toLocaleDateString("pt-BR") }})</span>
+            {% endif %}
+        </li>
+    {%- endfor -%}
+</ul>

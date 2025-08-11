@@ -1,0 +1,16 @@
+---
+layout: base.njk
+name: Prof. Carlos - Aulas FASEC
+---
+
+<h1 class="title">Aulas FASEC</h1>
+<h2 class="subtitle">Prof. Carlos Rodrigues</h2>
+
+{%- for semestre, disciplinas in collections.semestres -%}
+    <h3 class="subtitle-2">{{ semestre }}</h3>
+    <ul>
+        {%- for disciplina in disciplinas -%}
+            <li><a href="{{ disciplina.url }}">{{ disciplina.data.name }}</a></li>
+        {%- endfor -%}
+    </ul>
+{%- endfor -%}

@@ -1,0 +1,58 @@
+:root {
+    --main-bg: #282828;
+    --main-fg: #ebdbb2;
+    --main-primary: #fe8019;
+    --main-secondary: #fabd2f;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-bg);
+    color: var(--main-fg);
+    line-height: 1.35;
+}
+
+.content {
+    width: 100%;
+    max-width: 960px;
+    margin: 2rem 1rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--main-primary);
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.15rem;
+    margin-bottom: .5rem;
+    opacity: .5;
+}
+
+.subtitle-2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+.class-date {
+    opacity: .35;
+}
+
+a, a:visited {
+    color: var(--main-fg);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: .5rem;
+}
