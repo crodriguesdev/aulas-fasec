@@ -32,6 +32,18 @@ date: 2025-08-12
 * O SQL é uma linguagem de programação usada por quase todos os bancos de dados relacionais para consultar, manipular e
   definir dados e fornecer controle de acesso
 
+## Principais SGBDs
+* Relacionais:
+  * [MySQL](https://www.mysql.com/)
+  * [PostgreSQL](https://www.postgresql.org/)
+  * [SQL Server](https://www.microsoft.com/pt-br/sql-server)
+  * [Oracle Database](https://www.oracle.com/database/)
+  * [SQLite](https://sqlite.org/)
+* Não relacionais:
+  * [MongoDB](https://www.mongodb.com/)
+  * [Redis](https://redis.io/)
+  * [Cassandra](https://cassandra.apache.org/_/index.html)
+
 ## Desafios do banco de dados
 * Os grandes bancos de dados empresariais atuais geralmente suportam consultas muito complexas e devem fornecer
   respostas quase instantâneas a essas consultas. Como resultado, os administradores de bancos de dados frequentemente
