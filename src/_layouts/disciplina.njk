@@ -11,7 +11,7 @@ layout: base.njk
         <li>
             <a href="{{ aula.url }}">{{ aula.data.name }}</a>
             {% if aula.data.date %}
-                <span class="class-date">({{ aula.data.date.toLocaleDateString("pt-BR") }})</span>
+                <span class="class-date">({{ aula.data.date | dateString }})</span>
             {% endif %}
         </li>
     {%- endfor -%}

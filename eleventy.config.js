@@ -15,6 +15,10 @@ export default function(eleventyConfig) {
             return [...prev, [s, disciplinasDoSemestre]];
         }, []);
     });
+
+    eleventyConfig.addFilter('dateString', function(date) {
+        return date.toLocaleDateString('pt-BR', { timeZone: 'UTC' });
+    });
 };
 
 export const config = {
