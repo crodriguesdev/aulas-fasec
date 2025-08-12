@@ -14,7 +14,7 @@
   <body>
     <div class="content md">
         <h1>{{ name }}</h1>
-        <p class="subtitle">{{ date | dateString }}</p>
+        <p class="subtitle">{% if date %}{{ date | dateString }}{% endif %}</p>
         {{ content | safe }}
     </div>
   </body>
