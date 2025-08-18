@@ -1,5 +1,6 @@
 ---
 name: Plano de Aula - Arquitetura e Organização de Computadores
+date: 2025-08-08
 ---
 
 * Instituição: Faculdade Serra do Carmo (FASEC)

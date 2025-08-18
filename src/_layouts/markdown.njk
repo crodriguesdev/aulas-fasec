@@ -16,6 +16,8 @@
         <h1>{{ name }}</h1>
         <p class="subtitle">{% if date %}{{ date | dateString }}{% endif %}</p>
         {{ content | safe }}
+
+        {% mermaid_js %}
     </div>
   </body>
 </html>

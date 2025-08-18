@@ -10,6 +10,13 @@
     border-bottom: 2px solid var(--main-primary-20);
 }
 
+.md h3 {
+    display: inline-block;
+    font-size: 1.44rem;
+    margin-bottom: 0.2em;
+    border-bottom: 2px solid var(--main-fg-20);
+}
+
 .md .subtitle {
     margin-bottom: 2rem;
 }
@@ -17,4 +24,42 @@
 .md a, .md a:visited {
     text-decoration: underline;
     text-decoration-color: var(--main-fg-20);
+}
+
+.md .mermaid {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.md .mermaid svg {
+    background-color: var(--main-fg-40);
+}
+
+.md table, .md th, .md td {
+    border: 1px solid var(--main-fg-20);
+}
+
+.md th, .md td {
+    padding: 0.1rem 0.2rem;
+}
+
+.md th {
+    font-weight: bold;
+}
+
+.md p {
+    margin-bottom: 1rem;
+}
+
+.md table {
+    margin: 0 auto 1rem auto;
+}
+
+.md em {
+    font-style: italic;
+}
+
+.md strong {
+    font-weight: bold;
 }
