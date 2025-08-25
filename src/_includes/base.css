@@ -55,8 +55,12 @@ a:hover {
     text-decoration: underline;
 }
 
-ul {
+ul, ol {
     margin-left: 1rem;
+}
+
+ul + p, ol + p {
+    margin-top: 1rem;
 }
 
 li {
