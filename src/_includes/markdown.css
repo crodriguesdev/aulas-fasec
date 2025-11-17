@@ -63,3 +63,9 @@
 .md strong {
     font-weight: bold;
 }
+
+.md pre {
+    padding: 0.1rem 0.2rem;
+    border: 1px solid var(--main-fg-20);
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}

@@ -61,7 +61,7 @@ A maior limitação da E/S programada é que o processador tem que esperar para 
 pronto para a transferência de dados. O processador precisa interrogar repetidamente o estado do módulo enquanto espera.
 Como resultado, há uma perca de desempenho do sistema.
 
-## E/S controlada por interrupção
+### E/S controlada por interrupção
 
 Uma alternativa para a E/S programada é que o processador emita o comando para o módulo e continue realizando algum
 outro trabalho útil, sem necessidade de ficar checando o estado do dispositivo. O módulo de E/S então irá interromper o
@@ -84,7 +84,7 @@ Assim, tanto a E/S controlada por interrupção quanto a E/S programada possuem 
 velocidade com a qual o processador pode atender a um dispositivo, além de precisar ocupar o processador para realizar
 diversas instruções para cada transferência de E/S.
 
-## Acesso direto à memória (DMA)
+### Acesso direto à memória (DMA)
 
 Quando grandes volumes de dados precisam ser movidos por um módulo de E/S, uma técnica mais eficiente é necessária:
 acesso direto à memória (DMA).
