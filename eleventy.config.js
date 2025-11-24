@@ -28,6 +28,8 @@ export default function(eleventyConfig) {
     eleventyConfig.addShortcode('math', function(expression, display = false) {
         return mathup(expression, { display: display ? 'block' : 'inline' }).toString();
     });
+
+    eleventyConfig.addPassthroughCopy('src/_static')
 };
 
 export const config = {

@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    border: none;
 }
 
 .md .mermaid svg {
@@ -67,5 +68,17 @@
 .md pre {
     padding: 0.1rem 0.2rem;
     border: 1px solid var(--main-fg-20);
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+.md img {
+    max-width: 100%;
+    margin: 1rem auto;
+    display: block;
+    padding: 1rem;
+    background-color: var(--main-fg-20);
+}
+
+.md .mono {
     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }

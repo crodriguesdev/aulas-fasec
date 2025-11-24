@@ -56,6 +56,6 @@ substituirá a nota final do aluno, mantendo a nota necessária para aprovação
 * Aula 12 (10/11/2025) - Arquiteturas RISC, CISC e EPIC
 * Aula 13 (17/11/2025) - Arquiteturas superescalares
 * Aula 14 (24/11/2025) - Multiprocessamento; revisão para a prova 2 (P2).
-* Aula 15 (01/11/2025) - Prova teórica 2 (P2).
+* Aula 15 (01/12/2025) - Prova teórica 2 (P2).
 * Aula 16 (08/12/2025) - Segunda chamada de provas anteriores.
 * Aula 17 (15/12/2025) - Exame final (EF). 
