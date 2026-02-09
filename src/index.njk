@@ -6,7 +6,7 @@ name: Prof. Carlos - Aulas FASEC
 <h1 class="title">Aulas FASEC</h1>
 <h2 class="subtitle">Prof. Carlos Rodrigues</h2>
 
-{%- for semestre, disciplinas in collections.semestres -%}
+{%- for semestre, disciplinas in collections.semestres | reverse -%}
     <h3 class="subtitle-2">{{ semestre }}</h3>
     <ul>
         {%- for disciplina in disciplinas -%}
