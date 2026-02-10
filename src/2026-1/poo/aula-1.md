@@ -111,3 +111,31 @@ public class Condicional {
 
 }
 ```
+
+### Estruturas de repetição
+```java
+// Repeticao.java
+
+import java.util.Scanner;
+
+public class Repeticao {
+
+  public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    System.out.println("Digite a média");
+    double media =  input.nextDouble();
+
+    while(media <= 7) {
+        System.out.println("Digite uma nova média acima de 7.0");
+        media = input.nextDouble();
+    }
+    
+    for(int i = 0; i < 10; i++) {
+        System.out.println("3 * " + i + " = " + (3 * i));
+    }
+
+  }
+
+}
+```
