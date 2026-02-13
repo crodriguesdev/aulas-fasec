@@ -7,10 +7,10 @@ import mathup from "mathup";
 export default function(eleventyConfig) {
     eleventyConfig.addPlugin(HtmlBasePlugin);
     eleventyConfig.addPlugin(PluginMinifier);
+    eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(pluginMermaid, {
         mermaid_js_src: 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs',
     });
-    eleventyConfig.addPlugin(syntaxHighlight);
 
     eleventyConfig.addCollection('semestres', (collectionApi) => {
         const disciplinas = collectionApi.getFilteredByTag('disciplina');
