@@ -19,7 +19,7 @@ estágios de uma instrução são:
 * Ciclo indireto: a busca de um operando na memória pode haver acessos adicionais, em que determinada posição de memória
   não possui o valor necessário, e sim outro endereço que deve ser buscado. É uma ideia similar ao uso de ponteiros.
 
-<img src="/_static/img/aula-10-est-instr-simples.png" loading="lazy">
+<img src="/_static/img/2025-02-arq-org-comp/aula-10-est-instr-simples.png" loading="lazy" alt="estágios de uma instrução">
 
 É possível quebrar esse ciclo de instruções em sub-etapas:
 

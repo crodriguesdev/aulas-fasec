@@ -2,6 +2,7 @@ import { HtmlBasePlugin } from "@11ty/eleventy";
 import PluginMinifier from "@codestitchofficial/eleventy-plugin-minify";
 import pluginMermaid from "@kevingimbel/eleventy-plugin-mermaid";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import mathup from "mathup";
 
 export default function(eleventyConfig) {
@@ -11,6 +12,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginMermaid, {
         mermaid_js_src: 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs',
     });
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
     eleventyConfig.addCollection('semestres', (collectionApi) => {
         const disciplinas = collectionApi.getFilteredByTag('disciplina');
