@@ -78,8 +78,3 @@ flowchart TD
   * pode ser difícil rastrear o fluxo de informação quando há centenas de tópicos
   * nem todos os assinantes recebem e processam a mensagem no exato mesmo tempo
   * o broker se torna um gargalo, e se ele cair toda a comunicação para
-
-[//]: # (TODO: --> MVC)
-[//]: # (TODO: --> MVVM)
-[//]: # (TODO: --> Arquitetura Hexagonal)
-[//]: # (TODO: --> Arquitetura de eventos)
