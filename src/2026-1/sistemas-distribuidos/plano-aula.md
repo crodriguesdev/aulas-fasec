@@ -67,5 +67,7 @@ substituirá a nota final do aluno, mantendo a nota necessária para aprovação
 * Aula 14 (29/05/2026) - Introdução a Grades computacionais
 * Aula 15 (05/06/2026) - Redes P2P: aula 1
 * Aula 16 (12/06/2026) - Redes P2P: aula 2
-* Aula 17 (19/06/2026) - Apresentação do trabalho prático; revisão para a prova 2.
-* Aula 18 (26/06/2026) - Prova teórica 2 (P2).
+* Aula 17 (13/06/2026) - Reposição: Palestra com tema a definir a respeito de tecnologia
+* Aula 18 (19/06/2026) - Apresentação do trabalho prático; revisão para a prova 2.
+* Aula 19 (26/06/2026) - Prova teórica 2 (P2).
+* Aula 20 (03/07/2026) - Segunda chamada de provas anteriores.

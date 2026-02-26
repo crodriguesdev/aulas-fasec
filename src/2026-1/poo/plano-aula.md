@@ -53,15 +53,17 @@ substituirá a nota final do aluno, mantendo a nota necessária para aprovação
 * Aula 4 (10/03/2026) - Abstração, classes, objetos e construtores.
 * Aula 5 (17/03/2026) - Valor e referência.
 * Aula 6 (24/03/2026) - Atributos, métodos, encapsulamento e modificadores de acesso.
-* Aula 7 (31/03/2026) - Agregação e composição; entrega da lista de exercícios.
-* Aula 8 (07/04/2026) - Correção da lista de exercícios; revisão para a prova 1.
-* Aula 9 (14/04/2026) - Prova teórica 1 (P1).
-* Aula 10 (28/04/2026) - Herança e polimorfirmo, aula 1.
-* Aula 11 (05/05/2026) - Herança e polimorfismo, aula 2.
-* Aula 12 (12/05/2026) - Interfaces.
-* Aula 13 (19/05/2026) - Classes e métodos genéricos.
-* Aula 14 (26/05/2026) - Tratamento de exceções.
-* Aula 15 (02/06/2026) - Desenvolvimento de trabalho prático com acompanhamento presencial, aula 1.
-* Aula 16 (09/06/2026) - Desenvolvimento de trabalho prático com acompanhamento presencial, aula 2.
-* Aula 17 (16/06/2026) - Apresentação do trabalho prático; revisão para a prova 2.
-* Aula 18 (23/06/2026) - Prova teórica 2 (P2).
+* Aula 7 (28/03/2026) - Reposição: Palestra com tema a definir a respeito de tecnologia
+* Aula 8 (31/03/2026) - Agregação e composição; entrega da lista de exercícios.
+* Aula 9 (07/04/2026) - Correção da lista de exercícios; revisão para a prova 1.
+* Aula 10 (14/04/2026) - Prova teórica 1 (P1).
+* Aula 11 (28/04/2026) - Herança e polimorfismo, aula 1.
+* Aula 12 (05/05/2026) - Herança e polimorfismo, aula 2.
+* Aula 13 (12/05/2026) - Interfaces.
+* Aula 14 (19/05/2026) - Classes e métodos genéricos.
+* Aula 15 (26/05/2026) - Tratamento de exceções.
+* Aula 16 (02/06/2026) - Desenvolvimento de trabalho prático com acompanhamento presencial, aula 1.
+* Aula 17 (09/06/2026) - Desenvolvimento de trabalho prático com acompanhamento presencial, aula 2.
+* Aula 18 (16/06/2026) - Apresentação do trabalho prático; revisão para a prova 2.
+* Aula 19 (23/06/2026) - Prova teórica 2 (P2).
+* Aula 20 (30/06/2026) - Segunda chamada de provas anteriores.

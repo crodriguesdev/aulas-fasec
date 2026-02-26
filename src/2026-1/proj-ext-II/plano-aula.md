@@ -63,4 +63,4 @@ alcançados.
 * Aula 17 (06/06/2026) - Acompanhamento do projeto extensionista; ajustes e acompanhamento para a amostra de extensão
 * Aula 18 (13/06/2026) - Entrega do relatório final do projeto extensionista
 * Aula 19 (20/06/2026) - Amostra de Extensão
-* Aula 29 (27/06/2026) - Segunda chamada de apresentações anteriores
+* Aula 20 (27/06/2026) - Segunda chamada de apresentações anteriores
