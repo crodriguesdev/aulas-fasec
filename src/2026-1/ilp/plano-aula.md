@@ -67,4 +67,4 @@ substituirá a nota final do aluno, mantendo a nota necessária para aprovação
 * Aula 17 (03/06/2026) - Funções e modularização, aula 3
 * Aula 18 (10/06/2026) - Noções de recursividade
 * Aula 19 (17/06/2026) - Revisão para a prova 2; entrega da lista de exercícios L2.
-* Aula 19 (24/06/2026) - Prova teórica 2 (P2).
+* Aula 20 (24/06/2026) - Prova teórica 2 (P2).
