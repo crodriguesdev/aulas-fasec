@@ -82,25 +82,67 @@ programa {
 * Cálculo de consumo de combustível
   * O programa deve ler a kilometragem percorrida e o consumo em litros de combustível, e então mostrar a média de
     consumo em km/litro.
+```portugol
+programa {
+  funcao inicio() {
+    real kmPercorrido, consumoLitros
+    escreva("Digite a kilometragem percorrida ")
+    leia(kmPercorrido)
+    escreva("Digite o consumo em litros ")
+    leia(consumoLitros)
+
+    real mediaConsumo = kmPercorrido / consumoLitros
+    escreva("A média de consumo foi de ", mediaConsumo, " km/L")
+  }
+}
+```
 * Divisão de conta de restaurante
   * O programa deve ler o valor total da conta, a porcentagem de gorjeta e a quantidade de pessoas na mesa, dividir o
     valor final igualmente e mostrar quanto cada pessoa da mesa deverá pagar.
+```portugol
+programa {
+  funcao inicio() {
+    real valorTotalConta
+    inteiro porcentagemGorjeta, qtdPessoas
+
+    escreva("Digite o valor total da conta: ")
+    leia(valorTotalConta)
+    escreva("Digite a porcentagem de gorjeta: ")
+    leia(porcentagemGorjeta)
+    escreva("Digite a quantidade de pessoas na mesa: ")
+    leia(qtdPessoas)
+
+    real valorGorjeta, valorPorPessoa
+    valorGorjeta = valorTotalConta * (porcentagemGorjeta / 100)
+    valorPorPessoa = (valorTotalConta + valorGorjeta) / qtdPessoas
+
+    escreva("O valor por pessoa é de ", valorPorPessoa)
+  }
+}
+```
 * Bhaskara
   * A partir dos coeficientes a, b e c, calcule as raízes x1 e x2 da equação do segundo grau.
   * **ATENÇÃO: ainda não vai ser possível tratar o caso do delta negativo. Quando tivermos no conteúdo de desvio
     condicional resolveremos esse problema**
   * Observação: para resolver, é necessário incluir as funções matemáticas e usar a raiz quadrada de lá:
-  * ```portugol
-    // adicione a inclusão da lib matemática acima de funcao inicio():
-    
-    programa {
-      inclua biblioteca Matematica --> mat
-    
-      funcao inicio() {
-    ... continuação do código ...
-    
-    // para calcular a raiz, utilize
-    mat.raiz(delta, 2)
-    // essa função calcula a raiz por qualquer índice. O 2 indica que é a raiz quadrada, mas
-    // é possível calcular raiz cúbica alterando para mat.raiz(delta, 3), e assim por diante
-    ```
+```portugol
+programa {
+  inclua biblioteca Matematica --> mat
+
+  funcao inicio() {
+    real a, b, c
+    escreva("Digite o coeficiente a: ")
+    leia(a)
+    escreva("Digite o coeficiente b: ")
+    leia(b)
+    escreva("Digite o coeficiente c: ")
+    leia(c)
+
+    real delta = mat.potencia(b, 2) - 4 * a * c
+    real x1 = (-b + mat.raiz(delta, 2)) / 2 * a
+    real x2 = (-b - mat.raiz(delta, 2)) / 2 * a
+
+    escreva("As raízes são: ", x1, " e ", x2)
+  }
+}
+```
